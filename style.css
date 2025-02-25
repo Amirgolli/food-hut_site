@@ -195,13 +195,7 @@ html,body {
     color: white;
 }
 
-.play-video a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-}
+
 .circle-header{
     width: 50px;
     height: 50px;
@@ -215,7 +209,9 @@ html,body {
  
 
 .play-video a img{
-    width: 50%;
+    margin-top: 14px;
+    margin-left: 15px;
+    width: 41%;
     
 }
 .downlode h3{
@@ -539,7 +535,6 @@ html,body {
     justify-content: space-between;
     gap: 10px;
     list-style: none;
-
 }
 .title-list{
     font-size: 24px;
@@ -763,9 +758,6 @@ html,body {
     .footer{
         flex-direction: column;
     }
-    .list-footer{
-        gap: 220px;
-    }
     
     }
 
@@ -908,5 +900,10 @@ html,body {
     .list-footer{
         gap: 220px;
     }
-    
+    }
+
+    @media only screen and (max-width:400px){
+        .list-footer ul{
+            margin-right: -100px;
+        }
     }
