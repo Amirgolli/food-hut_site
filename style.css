@@ -671,6 +671,9 @@ html,body {
         margin-left: 10px;
         margin-right: 10px;
     }
+    .flex-desktop-header{
+        margin-right: 80px;
+    }
     
     .search-box {
         width: 90%;
@@ -684,7 +687,7 @@ html,body {
     
     .downlode {
         width: 100%;
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 15px;
         align-items: flex-start;
     }
@@ -774,6 +777,9 @@ html,body {
     #margine-btn-header{
         display: none;
     }
+    .flex-desktop-header{
+        margin-right: 5px;
+    }
     .trust{
         height: 80px;
         display: flex;
@@ -818,7 +824,7 @@ html,body {
     
     .downlode {
         width: 100%;
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 15px;
         align-items: flex-start;
     }
